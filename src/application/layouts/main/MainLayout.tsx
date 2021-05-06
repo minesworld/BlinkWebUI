@@ -236,7 +236,6 @@ class MainLayout extends React.PureComponent<PropsWithChildren<DashboardLayoutPr
                     </Toolbar>
                     {this.state.loading && <LinearProgress />}
                 </AppBar>
-                {drawer}
                 <main>
                     <div className={styles.dashboardContent}>
                         <Toolbar />
